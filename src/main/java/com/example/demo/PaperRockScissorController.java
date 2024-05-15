@@ -1,7 +1,6 @@
 package com.example.demo;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.ui.Model;
@@ -11,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class PaperRockScissorController {
-	private static List<Hand> handHistory = new ArrayList()<Hand>();
+	private static List<Hand> handHistory = new ArrayList<Hand>();
 	
 	@GetMapping("/")
 	@CrossOrigin
